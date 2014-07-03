@@ -1,13 +1,77 @@
 <HTML>
-<HEAD>
-	<TITLE>Innuva App Test</TITLE>
-</HEAD>
+	<HEAD>
+		<TITLE>Innuva App Test</TITLE>
+	</HEAD>
 <BODY>
-Thank you for taking the time to do this test.<BR>
-Please follow the instructions below:-<BR>
-1- Create a free Github account here: https://github.com/
-2- Create a Free Github page here: http://pages.github.com/
+	<STYLE>
+		.title {
+			font-weight: bold;
+			font-size: 16px;
+		}
+	</STYLE>
+	<P class="title">Introduction:</P>
+	<P>Thank you for taking the time to do this test.
+	Please follow the instructions below:-
+	</P>
+	<UL>
+		<LI>Create a free Github account here: <a target="_blank" href="https://github.com/">Github</a> </LI>
+		<LI>Create a Free Github page here: <a target="_blank" href="http://pages.github.com/">Github Pages</a> - or use a free web hosting of your choice</LI>
+		<LI>Read the requirements and complete the test.</LI>
+		<LI>Use your favorite GIT client to upload your app to the Github page you created</LI>
+		<LI>Send an email to cvs@innuva.com with the subject [App-Test] (Your Name) and a link to your Github page and your Github Repository</LI>
+	</UL>
+	
+	<P class="title">Requiremnts</P>
+	<P> This Web Application helps you rate facebook friends using a very simple point rating system. 
+		<br>At all times, you can give any friend one positive point, or one negative point. Friend's Points will be be calculated as the sum of all points they receive from their friends.
+		<br>Here is a list of the app features:-
+	</P>
+	<UL>
+		<LI>Connect to Facebook</LI>
+		<LI>Retrieve and list Facebook Friends for the connected user</LI>
+		<LI>For every friend, There is a score, and 2 buttons, a Plus Button and a Minus Button</LI>
+		<LI>You can only Plus a Friend or Minus a Friend, not both at the same time, you can change your rating at any time</LI>
+		<LI>If you Plus a friend many times, he still gets one positive Point, if you Minus a friend many times, he still gets one negative point</LI>
+		<LI>When loading Friend list, If a friend is previously Plus-ed - the plus button should be pushed. If a friend is Minus-ed - the minus button should be pushed.</LI>
+		<LI>Every Facebook friend gets a score, 1 positive point for every Plus and 1 negative point for every Minus.</LI>
+		<LI>Friend List should be sorted from the Highest to the lowest score</LI>
+	</UL>
+	<P class="title">Screens</P>
+	<img src="page1.jpg"> &nbsp;
+	<img src="page2.jpg"> <br>
+	<P class="title">Technology</P>
+	<UL>
+		<LI>use Javascript Facebook SDK For facebook connection and friend list retrieval</LI>
+		<LI>use Javascript SDK for Parse.com Objects For saving friends scores and friends plus/minus state for each user - No Server code, no Database required <a target="_blank" href="https://parse.com/docs/js_guide#objects">Parse Objects</a></LI>		
+		<LI>use Bootstrap for all UI Elements - it is not necessary that the UI is exactly the same as the mockup screens on this page <a target="_blank" href="http://getbootstrap.com/">Bootstrap</a></LI>		
+	</UL>
+	
+	<P class="title">Deadline</P>
+	<P> </P>
 
+	<P class="title">Deliverables</P>
+	<P> </P>
+	
+	<P class="title">Evaluation</P>
+	<P>Evaluation of your application will consider the following for 100 Points</P>
+	<UL>
+		<LI>10 Points - Correct use of Facebook SDK to create Facebook App, Connect User to App, Retrieve Users, Retrieve User Info, Friends</LI>
+		<LI>20 Points - Correct use of Parse.com to create Parse Objects, save Friend list, save friend scores and retrieve them correctly when needed</LI>		
+		<LI>10 Points - Clean use of Bootstrap to create clean and portable HTML that would work seamlessly across browsers, Also the app should be user friendly</LI>		
+		<LI>20 Points - Application Logic - Handling Plus and Minus functions and states across the app. Handling all special cases and exceptions.</LI>
+		<LI>20 Points - Code Organization - Use of organized code, comments, descriptive function names, indentation. Everything that makes the code easy to understand and build upon effortlessly</LI>
+		<LI>20 Points - App Design - use of modular design, object oriented design, design patterns, separation of presentation, data and app control. Everything that makes the app easy to extend and re-use</LI>				
+	</UL>
+	<P>Bonus - If you wish to stand out in the crowd - you may try the following</P>
+	<UL>
+		<LI>Bonus - 30 Points - Using a Javascript Framework of your choice</LI>		
+		<LI>Bonus - 30 Points - Making the UI Update instantly - Score and sorting order update when you click plus or minus, use pull to refresh friend list/scores/order, use SPA - no need to refresh the page</LI>		
+		<LI>Bonus - 30 Points - Making the app Mobile Friendly - Responsive</LI>		
+		<LI>Super Bonus - 100 Points - Making it as a Phonegap app for Android or iOS - using Facebook and Parse Plugins</LI>		
+	</UL>
+
+	<P class="title">Conclusion</P>
+	<P> Best of luck :) </P>
 
 </BODY>
 </HTML>
